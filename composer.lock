@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4731429c7f25ab92eaa813447a972209",
+    "content-hash": "ea342385d3a8d9d21899c354fafd944d",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1097,6 +1097,31 @@
                 "type"
             ],
             "time": "2015-07-25T16:39:46+00:00"
+        },
+        {
+            "name": "probat/lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/probat/lib.git",
+                "reference": "b07c42e208cbd30b6f6c66491dc5ae31057679ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/probat/lib/zipball/b07c42e208cbd30b6f6c66491dc5ae31057679ee",
+                "reference": "b07c42e208cbd30b6f6c66491dc5ae31057679ee",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "git",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Componentes.",
+            "time": "2019-05-03T20:54:59+00:00"
         },
         {
             "name": "psr/container",
