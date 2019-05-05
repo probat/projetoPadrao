@@ -9,6 +9,8 @@ else
 	composer update
 	echo "Criando Base de Dados $1"
 	php artisan mysql:createdb $1
+	echo "Criando Tabelas na base de Dados $1"
+	php artisan migrate
 	echo "Criando seeders"
 	php artisan db:seed
 fi
