@@ -6,6 +6,10 @@
  */
 
 require('./bootstrap');
+require('./appGraficos');
+require('./graficos/averageRainFall.js');
+require('./graficos/timeline.js');
+require('./graficos/util.js');
 
 window.Vue = require('vue');
 

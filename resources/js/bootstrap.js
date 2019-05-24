@@ -12,6 +12,10 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
+
+    var Highcharts = require('highcharts');
+
+	require ('highcharts/modules/timeline')(Highcharts);
 } catch (e) {}
 
 /**
