@@ -6,12 +6,14 @@
  */
 
 require('./bootstrap');
-require('./appGraficos');
-require('./graficos/averageRainFall.js');
-require('./graficos/timeline.js');
-require('./graficos/util.js');
+var graficos = require('./appGraficos');
+/*require('./graficos/averageRainFall.js')(graficos);
+require('./graficos/timeline.js')(graficos);
+require('./graficos/util.js')(graficos);*/
 
 window.Vue = require('vue');
+import $ from 'jquery';
+import 'datatables.net';
 
 /**
  * The following block of code may be used to automatically register your

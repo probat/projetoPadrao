@@ -13,6 +13,15 @@ else
 	php artisan migrate
 	echo "Criando seeders"
 	php artisan db:seed
+	echo "Instalando npm"
+	rm -rf node_modules
+	npm install
+	echo "Instalando Data Tables"
+	npm install datatables.net
+	npm install datatables.net-dt
+	echo "Gerando arquivos de configuração node"
+	npm run dev
+
 fi
 
 echo "# Done $1 Product #"
